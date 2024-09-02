@@ -73,9 +73,9 @@ function displayStudentDetails(studentData) {
 
   if (globalVariables.studentGender === "female") {
     header.style.backgroundColor = "lightpink";
-    videoSource.src = "/student-portal/student-dashboard/sd-resources/girlwaving.mp4";
+    videoSource.src = "/student-dashboard/sd-resources/girlwaving.mp4";
   } else {
-    videoSource.src = "/student-portal/student-dashboard/sd-resources/boywaving.mp4";
+    videoSource.src = "/student-dashboard/sd-resources/boywaving.mp4";
   }
 
   videoSource.addEventListener('contextmenu', function(event) {
