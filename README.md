@@ -45,6 +45,14 @@ cordova platform add ios
 Build the application for the added platforms:
 
 For Android:
+
+Ensure you have the following installed:
+
+- Android SDK
+
+- JDK (Java Development Kit) – Version 8 or later
+
+- Gradle – Version compatible with your Android SDK & JDK
 ```bash
 cordova build android
 ```
@@ -64,6 +72,9 @@ cordova run android
 ```
 
 For iOS:
+
+Require XCode
+
 ```bash
 cordova run ios
 ```
